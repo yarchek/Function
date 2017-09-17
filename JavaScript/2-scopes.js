@@ -20,7 +20,11 @@ function f1() {
     console.dir({ cities });
     console.dir(cities.map(f));
   }
-
+    {
+      const names = ['Bogdan', 'Ololo', 'Vasia']
+        console.dir({ names });
+        console.dir(names.map(f));
+    }
 }
 
 f1();
